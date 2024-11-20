@@ -1,0 +1,87 @@
+/*Media Queries para laptop*/
+@media (min-width: 1024px) {
+    /*estilos de pagina de productos*/
+   .productos {
+    p{
+    font-size: 1.1em;
+    }
+    a{
+    font-size: 1.1em;
+    }
+   }
+   /*estilos de pagina index*/
+    .foto-mate {
+        img{
+        width: 55%;
+        height: 75%;
+        align-self: center;
+        padding: 10px;
+        background-color: #1a1a1a;
+        border-radius: 10px;
+        }
+     p{
+            align-self: center;
+            
+        }
+}
+    
+    /*estilos de pagina sobre-nosotros*/
+     .about-us {
+        flex-direction: row; 
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px; 
+        .sobre-nosotros-img {
+            width: 30%; 
+            img {
+                max-width: 100%; 
+                }
+        }
+        .sobre-nosotros-texto {
+            width: 50%; 
+            text-align: left;
+            max-width: none; 
+        }
+    }
+    /*estilos para los productosd de 01 a 06*/
+p{
+    font-size: 1.5em;
+   }
+  
+
+
+}
+
+
+
+
+@media (min-width: 1440px){
+    /*estilos de pagina de productos*/
+    .productos{
+        p{
+        font-size: 1.1em;
+       }
+       a{
+        font-size: 1.1em;
+       }
+    }
+      /*estilos de pagina index*/
+.foto-mate img{
+    img{
+    width: 65%;
+    height: 85%;
+    align-self: center;
+    padding: 10px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    }
+    p{
+        align-self: center;
+        font-size: 1.2em;
+    }
+}
+/*estilos para los productosd de 01 a 06*/
+p{
+    font-size: 1.5em;
+   }
+}

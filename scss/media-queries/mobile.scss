@@ -1,0 +1,62 @@
+
+
+@media (max-width: 480px) {
+   footer{
+    display: flex;
+    flex-direction: column;
+   }
+    p{
+        font-size: 1em;
+    }
+    /*estilos para la pagina de productos*/
+   .productos{
+    gap: 15px;
+    a{
+        font-size: 1em;
+    }
+    }
+    /*estilos para el index*/
+    .section-principal {
+        gap: 15px;
+        .foto-mate{
+            img{
+                width: 55%;
+                padding: 10px;
+            background-color: #1a1a1a;
+            border-radius: 10px;
+        }
+        p{
+            font-size: 0.9em;
+        }
+        }
+        .video-mateando{
+            width: 90%;
+        }
+        .sobre-nosotros{
+            .parrafo-about-us{
+                font-size: 0.9em;
+            }
+        }
+    }
+
+    /*estilos para la pagina sobre-nosotros*/
+    .about-us {
+        gap: 15px; 
+        .sobre-nosotros-img {
+            width: 100%; 
+            img {
+                width: 90%; 
+                max-width: 280px; 
+                height: auto;
+            }
+        }
+        .sobre-nosotros-texto {
+            padding: 15px;
+            font-size: 14px; 
+             max-width: 98%; 
+            text-align: center; 
+            margin: 10px;
+        }
+    }
+
+}

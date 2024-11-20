@@ -1,0 +1,12 @@
+.logo-whatsapp{
+    position: fixed;
+    bottom: 35px;
+    right: 45px;
+    img{
+        width: 35px;
+    }
+    transition: 3s;
+    &:hover{
+        transform: rotate(360deg) translateY(-35px);
+    }
+}
